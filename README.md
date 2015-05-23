@@ -1,5 +1,9 @@
 React Test
 ================
+An experiment to learn more about the React framework.
+Resources:
+- [React.js - A guide for Rails developers](https://www.airpair.com/reactjs/posts/reactjs-a-guide-for-rails-developers?utm_source=rubyweekly&utm_medium=email)
+-----------
 
 This application was generated with the [rails_apps_composer](https://github.com/RailsApps/rails_apps_composer) gem
 provided by the [RailsApps Project](http://railsapps.github.io/).
