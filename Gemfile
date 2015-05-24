@@ -14,7 +14,8 @@ group :development, :test do
 end
 gem 'bootstrap-sass'
 gem 'devise'
-gem 'haml-rails'
+# gem 'haml-rails'
+gem 'slim-rails'
 gem 'high_voltage'
 gem 'pg'
 gem 'simple_form'
@@ -25,7 +26,7 @@ group :development do
   gem 'guard-bundler'
   gem 'guard-rails'
   gem 'guard-rspec'
-  gem 'html2haml'
+  # gem 'html2haml'
   gem 'hub', :require=>nil
   gem 'quiet_assets'
   gem 'rails_layout'
@@ -33,6 +34,9 @@ group :development do
   gem 'rb-fsevent', :require=>false
   gem 'rb-inotify', :require=>false
   gem 'spring-commands-rspec'
+
+  gem 'guard-livereload', require: false
+  gem 'rack-livereload'
 end
 group :development, :test do
   gem 'factory_girl_rails'
